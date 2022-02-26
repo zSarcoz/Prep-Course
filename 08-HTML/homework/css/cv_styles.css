@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+  /*  ----------------   LAYOUT   ----------------    */
+  .main-container{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+ /*  ----------------   GENERAL   ----------------    */
+ul{
+   list-style-type: none;
+}
+
+li{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2{
+  text-transform: uppercase;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+  /*  ----------------   ASIDE  ----------------    */
+
+  #img-profile img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    
+}
+
+figcaption.fig1{
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing:2px;
+    border-bottom: 1px solid gainsboro;
+}
+
+aside{
+    background-color: rgb(44, 44, 44);
+    width: 30%;
+    margin-right: 3%;
+    box-shadow: 5px 5px 30px 10px  rgba(9, 9, 9, 0.486) inset;
+    padding-left: 10px;
+}
+
+aside *{
+   color: aliceblue;
+}
+
+aside h2{
+    letter-spacing: 5px;
+}
+
+aside section h2:first-child{
+    border-bottom: 2px solid gainsboro;
+}
+
+.expertise,
+.education,
+.skills-tech,
+.hobbies{
+   line-height: 1.5em;
+}
+
+meter{
+    display: block;
+    width: 80%;
+}
+
+meter.tech-skill::-webkit-meter-optimum-value {
+    background: none;
+    background-color: rgb(87, 158, 216);
+  }
+
+meter.tech-skill::-webkit-meter-bar{
+    background: none;
+    background-color: whitesmoke;
+  }
+ /*  ----------------   MAIN  ----------------    */
+
+ main section > h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.hero{
+    background-color: crimson;
+    box-shadow: 5px 5px 20px 10px  rgba(73, 73, 73, 0.486) inset;
+    padding: 10% 5%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.hero h2{
+    color: aliceblue;
+    border-top: 2px solid gainsboro;
+    letter-spacing: 10px;
+    
+}
+
+.hero h1{
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+.aboutme{
+   background-color: rgba(220, 20, 60, 0.192);
+   border: 1px;
+   border-radius: 20px;
+   padding-bottom: 2px;
+   text-align: center;
+   
+}
+
+.aboutme p{
+    line-height: 1.5em;
+    padding: 5px;
+}
+
+.aboutme h2{
+   background-color: white;
+   text-align: left;
+}
+
+.extra li,
+.extra ul{
+    line-height: 1.5em;
+    list-style-type: square;
+}
+
